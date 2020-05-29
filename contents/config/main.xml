@@ -13,6 +13,10 @@
         <label>the number of columns a grid uses, can be supplied differently per screen</label>
         <default>2, 3</default>
       </entry>
+      <entry name="enforce" type="bool">
+        <label>Enforce tiling in some scenarios</label>
+        <default>false</default>
+      </entry>
       <entry name="gap" type="int">
         <label>gap size between clients in px</label>
         <default>16</default>
